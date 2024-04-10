@@ -17,7 +17,7 @@ let sumWithReduce = function(nums) {
   let sum = nums.reduce((accum, curVal) => {
     accum += curVal;
     return accum;
-  }, 0)
+  }, 0);
   return sum;
 };
 
